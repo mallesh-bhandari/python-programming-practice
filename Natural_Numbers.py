@@ -1,8 +1,12 @@
-def Natural_Numbers(numbers):                      # Declared function 
-    for i in range(1,numbers+1):                   # Use for Loop 
+# Use Finction 
+def Natural_Numbers(numbers):  
+# Use For Loop
+    for i in range(1,numbers+1):                  
         print(i)
-        
-Value = int(input("Enter The Number: "))           # Use User input 
+      
+# User Input 
+Value = int(input("Enter The Number: "))           
 
-Natural_Numbers(Value)                             # function call 
+# Output 
+Natural_Numbers(Value)                              
 

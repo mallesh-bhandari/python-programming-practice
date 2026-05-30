@@ -1,9 +1,14 @@
-def Addition(first_value,second_value):              # use method , and two parameters
-    return first_value + second_value                # logic , return after Addition 
+# Use Function 
+def Addition(first_value,second_value):
+    # return after Addition               
+    return first_value + second_value                
 
-num1 = int(input("Enter First Value: "))             #  first variable  declared 
+# first Input From User 
+num1 = int(input("Enter First Value: "))            
 
-num2 = int(input("Enter Second Value: "))            # second  variable declared 
+# second Input from User
+num2 = int(input("Enter Second Value: "))           
 
-print(Addition(num1,num2))                           # use print() to display output 
+#Output Display
+print(Addition(num1,num2))                         
 
