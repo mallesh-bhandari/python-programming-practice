@@ -6,7 +6,7 @@ def Factorial_Number(Number):
 #  Factorial Logic               
         Factorial = Factorial * i
 # Print final answer        
-        print(Factorial)
+    print(Factorial)
       
 # User input      
 Value = int(input("Enter Any Number: "))   
