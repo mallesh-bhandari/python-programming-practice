@@ -4,7 +4,7 @@ def Odd_Numbers(Numbers):
 # Display Output        
         print(i)   
         
-        
+# User Input        
 Numbers = int(input("Enter Any number: "))
-
+# Function Call
 Odd_Numbers(Numbers)        
